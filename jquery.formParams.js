@@ -73,7 +73,7 @@
           if ( isNumber(value) ) {
             value = parseFloat(value);
           } else if ( value === 'true' || value === 'false' ) {
-            value = Boolean(value);
+            value = value === 'true';
           }
 
         }
